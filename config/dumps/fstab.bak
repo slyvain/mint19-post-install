@@ -1,0 +1,16 @@
+
+# Backup disks
+UUID="a433fc41-5f92-44a2-ba94-82736e6e31e1" /media/backup1 ext4 nosuid,nodev,nofail,comment=x-gvfs-show 0 0
+UUID="fd91cb24-f100-4004-9593-253883a0f48d" /media/backup2 ext4 nosuid,nodev,nofail,comment=x-gvfs-show 0 0
+
+# Linux 1 TB storage disk
+UUID="f8e691c7-b309-491a-800b-8acddebe1e9e" /media/storage ext4 nosuid,nodev,nofail,comment=x-gvfs-show 0 0
+
+# Windows disk, NTFS, mounted read-only for Linux Backups
+UUID=6CA8BDDFA8BDA84A /media/photography ntfs ro 0 0
+
+# Windows Disks: FORBID LINUX USE
+# Windows OS
+#UUID="3EAC6D5AAC6D0E29"
+# Windows Backup
+#UUID="382617252616E3A2"
